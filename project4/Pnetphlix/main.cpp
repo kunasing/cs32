@@ -133,16 +133,6 @@ int main()
 
     Recommender recs(users, movies);
 
-//    vector<MovieAndRank> recommendations = recs.recommend_movies("AbFow2483@charter.net", 6);
-
-    int x;
-    cout << x;
-    cin >> x;
     findMatches(recs, movies, "BrunB@yahoo.com", 10);
-//
-
-//    findMoviesBy();
-//
-    cout << endl;
 }
 
